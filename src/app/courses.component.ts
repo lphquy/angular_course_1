@@ -5,7 +5,7 @@ import { CoursesService } from './courses.service';
     selector: 'courses',
     template: `
         <h2>{{title}}</h2>
-        <image src="{{imageUrl}}"/>   
+        <img [src]="imageUrl" />
     `
 })
 
